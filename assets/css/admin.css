@@ -1,0 +1,176 @@
+.ddwcpos-configuration-container {
+    padding: 15px 25px;
+    background-color: #fff;
+    margin-top: 15px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px 0 #0000000f;
+}
+.ddwcpos-padding-top-bottom-0 {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+}
+.ddwcpos-configuration-container h2 {
+    background-color: #ecf0f3;
+    padding: 16px 25px;
+    margin: 0 -25px 5px;
+}
+.ddwcpos-configuration-container input[type="submit"] {
+    background-color: #038aad !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    border: none;
+    text-transform: uppercase !important;
+    padding: 3px 15px !important;
+}
+.ddwcpos-configuration-container input[type="submit"]:hover {
+    box-shadow: inset 0 0 100px 100px rgba(0, 0, 0, .2);
+}
+.ddwcpos-configuration-container input[type="checkbox"] {
+    position: relative;
+    width: 40px !important;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #e2e8f0;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(255, 0, 0, 0.2);
+    transition: 0.7s;
+    vertical-align: middle;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+}
+.ddwcpos-configuration-container input:checked[type="checkbox"] {
+    background: #038aad;
+    outline: none;
+}
+.ddwcpos-configuration-container input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: -1px;
+    left: 0;
+    margin: 0;
+    background: #ffffff;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: .5s;
+}
+.ddwcpos-configuration-container input:checked[type="checkbox"]:before {
+    left: 20px;
+    content: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20viewBox%3D%270%200%2020%2020%27%3E%3Cpath%20d%3D%27M14.83%204.89l1.34.94-5.81%208.38H9.02L5.78%209.67l1.34-1.25%202.57%202.4z%27%20fill%3D%27%233582c4%27%2F%3E%3C%2Fsvg%3E);
+}
+.ddwcpos-margin-left-20 {
+    margin-left: 20px !important;
+}
+.ddwcpos-hide {
+    display: none !important;
+}
+.dashicons-trash {
+    cursor: pointer;
+    vertical-align: text-top;
+}
+.ddwcpos-width-60 {
+    width: 60%;
+}
+.ddwcpos-width-90 {
+    width: 90%;
+}
+.ddwcpos-invoice-composer-container {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-gap: 10px;
+}
+.ddwcpos-invoice-composer-container textarea {
+    width: 100%;
+    height: 700px;
+}
+.ddwcpos-editor-switch-buttons {
+    margin-bottom: 5px;
+}
+.ddwcpos-editor-switch-buttons span {
+    font-size: 18px;
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    border: solid 1px #555;
+}
+.ddwcpos-editor-switch-buttons span.ddwcpos-active {
+    background-color: #555;
+    color: #fff;
+}
+.ddwcpos-barcode-print-content {
+    display: none;
+}
+.widefat .column-ddwcpos_order_type {
+    padding-right: 0 !important;
+    text-align: center;
+    width: 3ch !important;
+}
+td.ddwcpos_order_type:before {
+    display: none !important;
+}
+th.column-ddwcpos_order_type {
+    text-align: center;
+}
+.order-type-checkout,
+.order-type-pos {
+    -webkit-font-smoothing: antialiased;
+    background: #e5e5e5;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    border-radius: 4px;
+    color: #fff;
+    cursor: inherit !important;
+    display: inline-flex;
+    font-size: 16px;
+    line-height: 2;
+    max-width: 100%;
+    padding: 0 .6em;
+    white-space: nowrap;
+}
+.order-type-pos {
+    background: #c6e1c6;
+    color: #5b841b;
+}
+.order-type-pos:before {
+    content: "\f513";
+    font-family: Dashicons;
+}
+.order-type-checkout {
+    background: #c8d7e1;
+    color: #2e4453;
+}
+.order-type-checkout:before {
+    content: "\f174";
+    font-family: Dashicons;
+}
+.column-ddwcpos_order_type .order-type {
+    display: block;
+    height: 1em;
+    margin: 0 auto;
+    position: relative;
+    text-indent: -9999px;
+    width: 1em;
+}
+.column-ddwcpos_order_type .order-type:before {
+    -webkit-font-smoothing: antialiased;
+    speak: none;
+    content: "\f174";
+    font-family: Dashicons;
+    font-variant: normal;
+    font-weight: 400;
+    height: 100%;
+    left: 0;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    top: 0;
+    width: 100%;
+}
